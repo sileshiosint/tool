@@ -1,0 +1,7 @@
+streamlit
+selenium
+transformers
+jinja2
+pdfkit
+pandas
+langdetect

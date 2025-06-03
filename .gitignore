@@ -1,0 +1,26 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Environment
+.env
+venv/
+ENV/
+
+# Data & Reports - if they get too large or sensitive
+data/*.csv
+data/*.json
+data/*.db
+reports/*.pdf
+reports/*.html
+
+# IDE specific
+.vscode/
+.idea/
+
+# Selenium related
+chromedriver
+geckodriver
+*.log
