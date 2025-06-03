@@ -5,3 +5,5 @@ jinja2
 pdfkit
 pandas
 langdetect
+psycopg2-binary
+spacy

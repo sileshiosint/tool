@@ -24,3 +24,6 @@ reports/*.html
 chromedriver
 geckodriver
 *.log
+
+# Configuration files with sensitive data
+config.ini

@@ -1,0 +1,26 @@
+[GeneralPaths]
+# Path to your main Chrome executable (optional, Selenium usually finds it if in PATH)
+# chrome_executable_path = /usr/bin/google-chrome-stable
+# chrome_driver_executable_path = /path/to/your/chromedriver
+
+[FacebookScraper]
+# Path to the Chrome user profile directory you want to use for Facebook.
+# Example macOS: /Users/yourusername/Library/Application Support/Google/Chrome/Profile 1
+# Example Windows: C:\Users\yourusername\AppData\Local\Google\Chrome\User Data\Profile 1
+# Example Linux: /home/yourusername/.config/google-chrome/Profile 1
+chrome_profile_path_facebook = PATH_TO_YOUR_FACEBOOK_CHROME_PROFILE
+default_scrape_targets = user_profile_url_1,page_url_1
+
+[TwitterScraper]
+# Path to the Chrome user profile directory you want to use for Twitter/X.
+# Can be the same as Facebook if you use one profile for both.
+chrome_profile_path_twitter = PATH_TO_YOUR_TWITTER_CHROME_PROFILE
+default_scrape_targets = user_handle_1,keyword_1
+
+[DatabasePostgreSQL]
+host = localhost
+port = 5432
+dbname = social_media_analysis_db
+user = your_db_user
+password = your_db_password
+# sslmode = require # Optional, uncomment and set if your PostgreSQL server requires SSL
